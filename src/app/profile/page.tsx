@@ -117,7 +117,7 @@ function ProfileForm() {
             />
           </div>
           <label className="label py-1">
-            <span className="label-text-alt text-base-content/50">Email can't be changed</span>
+            <span className="label-text-alt text-base-content/50">Email can&apos;t be changed</span>
           </label>
         </div>
 

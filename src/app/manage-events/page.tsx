@@ -79,7 +79,7 @@ function ManageEventsList() {
 
       {events.length === 0 ? (
         <div className="text-center py-20 border border-dashed border-base-300 rounded-2xl">
-          <p className="text-base-content/60">You haven't created any events yet.</p>
+          <p className="text-base-content/60">You haven&apos;t created any events yet.</p>
           <Link href="/create-event" className="btn btn-primary btn-sm mt-4 gap-2">
             <FiPlusCircle /> Create your first event
           </Link>
@@ -161,7 +161,7 @@ function ManageEventsList() {
           <div className="modal-box">
             <h3 className="font-heading font-bold text-lg">Delete this event?</h3>
             <p className="py-4 text-base-content/70">
-              This action can't be undone. The event and its join records will be removed.
+              This action can&apos;t be undone. The event and its join records will be removed.
             </p>
             <div className="modal-action">
               <button className="btn btn-ghost" onClick={() => setDeletingId(null)}>

@@ -52,7 +52,7 @@ function JoinedEventsList() {
 
       {joined.length === 0 ? (
         <div className="text-center py-20 border border-dashed border-base-300 rounded-2xl">
-          <p className="text-base-content/60">You haven't joined any events yet.</p>
+          <p className="text-base-content/60">You haven&apos;t joined any events yet.</p>
           <Link href="/events" className="btn btn-primary btn-sm mt-4">
             Browse upcoming events
           </Link>
