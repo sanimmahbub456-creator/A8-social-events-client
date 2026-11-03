@@ -2,8 +2,8 @@
 
 A community-driven event management platform where users create, discover, join, and track local social-service events — clothes drives, blanket distributions, plantation days, cleanups, and more.
 
-- **Live Site URL:** https://a8-social-events-client.vercel.app/
-- **Server repo:** <!-- add your server GitHub repo link here -->
+- **Live Site URL:** https://a8-social-events-client.vercel.app
+- **Server repo:** https://github.com/sanimmahbub456-creator/A8-social-events-server
 
 ## Features
 
@@ -14,7 +14,8 @@ A community-driven event management platform where users create, discover, join,
 - Upcoming Events page with search + event-type filtering, showing only events whose date hasn't passed.
 - Event details page (public) with a working Join Event flow that requires login.
 - Create/Update event forms share one validated component; dates before today are rejected both client- and server-side.
-- Manage Events page: table view of your own events with inline update (modal) and delete (confirmation modal), scoped to the logged-in user's email.
+- Manage Events page: own events with inline update (modal) and delete (confirmation modal), scoped to the logged-in user's email.
+- Profile page: view and update your display name and profile photo.
 - Responsive, consistent design system (headings, buttons, spacing, cards) built with Tailwind + DaisyUI across every page.
 
 ## Tech Stack
@@ -29,7 +30,7 @@ cp .env.local.example .env.local   # then fill in your own values
 npm run dev                         # http://localhost:3000
 ```
 
-Make sure the [server](../server) is running (or deployed) and `NEXT_PUBLIC_API_URL` points at it.
+Make sure the [server](https://github.com/sanimmahbub456-creator/A8-social-events-server) is running (or deployed) and `NEXT_PUBLIC_API_URL` points at it.
 
 ## Environment Variables
 
@@ -50,4 +51,4 @@ See `.env.local.example`:
 
 ## Deployment
 
-Build with `npm run build`, deploy to Vercel (recommended for Next.js). Set the same environment variables in your hosting provider's dashboard, update `BETTER_AUTH_URL` / `NEXT_PUBLIC_BASE_URL` to your production domain, and add that domain to your Google OAuth client's authorized redirect URIs (`https://<your-domain>/api/auth/callback/google`).
+Build with `npm run build`, deploy to Vercel. Set the same environment variables in your hosting provider's dashboard, update `BETTER_AUTH_URL` to your production domain, and add that domain to your Google OAuth client's authorized redirect URIs (`https://<your-domain>/api/auth/callback/google`).
