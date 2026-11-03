@@ -2,7 +2,7 @@
 
 A community-driven event management platform where users create, discover, join, and track local social-service events — clothes drives, blanket distributions, plantation days, cleanups, and more.
 
-- **Live Site URL:** <!-- https://a8-social-events-client-9231q374n-mahbub-ed.vercel.app/-->
+- **Live Site URL:** https://a8-social-events-client-9231q374n-mahbub-ed.vercel.app/
 - **Server repo:** <!-- add your server GitHub repo link here -->
 
 ## Features
